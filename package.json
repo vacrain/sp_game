@@ -1,0 +1,28 @@
+{
+  "name": "vacrain-proj-template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://vacrain.github.io/xxx",
+  "scripts": {
+    "dev": "vite --open",
+    "local-build-preview": "vue-tsc --noEmit && vite build --mode localbuild && vite preview",
+    "build": "vue-tsc --noEmit && vite build"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.5",
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@iconify-json/ic": "^1.1.9",
+    "@types/node": "^18.7.9",
+    "@unocss/preset-attributify": "^0.45.8",
+    "@unocss/preset-icons": "^0.45.8",
+    "@unocss/preset-uno": "^0.45.8",
+    "@vitejs/plugin-vue": "^3.0.3",
+    "typescript": "^4.6.4",
+    "unocss": "^0.45.8",
+    "vite": "^3.0.7",
+    "vue-tsc": "^0.39.5"
+  }
+}
