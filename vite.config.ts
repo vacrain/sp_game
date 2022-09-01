@@ -44,14 +44,7 @@ export default defineConfig(({ command, mode }: ConfigEnv) => {
 
     build: {
       outDir: 'dist'
-      // minify: 'terser', // terser not found. Since Vite v3, terser has become an optional dependency. You need to install it.
-      // terserOptions: {
-      //   compress: {
-      //     // 移除生产环境log
-      //     drop_console: true,
-      //     drop_debugger: true
-      //   }
-      // }
+      // minify: 'terser', // 被官方取消了
       // chunkSizeWarningLimit: 1500, // 分块打包，将大包分解成更小的块
       // rollupOptions: {
       //   output: {

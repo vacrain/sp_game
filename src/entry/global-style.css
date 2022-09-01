@@ -24,7 +24,7 @@ body {
 /* 可以根据 暗色和亮色 单独设置 */
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
+    color: #000;
     background-color: #ffffff;
   }
   a:hover {
@@ -36,13 +36,14 @@ body {
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    color: #213547;
-    background-color: rgb(219, 188, 188);
+    color: #000;
+    background-color: rgb(35, 35, 39);
   }
   a:hover {
     color: #747bff;
   }
   button {
     background-color: #f9f9f9;
+    color: #000;
   }
 }

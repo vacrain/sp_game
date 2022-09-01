@@ -1,6 +1,4 @@
-// consts
-
-export const dict = {
+export const SHUANG_DICT = {
   '': {
     a: '啊',
     ai: '爱',

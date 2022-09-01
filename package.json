@@ -10,6 +10,8 @@
     "build": "vue-tsc --noEmit && vite build"
   },
   "dependencies": {
+    "@vueuse/core": "^9.1.1",
+    "@vueuse/sound": "^1.1.7",
     "dayjs": "^1.11.5",
     "vue": "^3.2.37"
   },
